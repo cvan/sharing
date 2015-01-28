@@ -1,7 +1,6 @@
 gulpfile.js
 .editorconfig
 .jshintrc
-dist/
 node_modules/
 .DS_Store
 app/npm-debug.log

@@ -1,0 +1,100 @@
+#proximity-apps a {
+  width: 100%;
+  height: 3.4rem;
+  padding: 0.3rem;
+
+  position: relative;
+  display: flex;
+
+  line-height: 3.4rem;
+  align-items: center;
+}
+
+#proximity-apps a:nth-child(odd) {
+}
+
+gaia-list h1 {
+  margin: 2rem 0.6rem 0.6rem 0.6rem;
+  color: #666;
+}
+
+gaia-list li {
+  height: 3rem;
+
+  margin: 0 0.6rem;
+  padding: 0.6rem 0.4rem;
+
+  width: calc(100% - 2.0rem);
+
+  display: flex;
+  align-items: center;
+
+  font-style: italic;
+  font-weight: 100;
+}
+
+gaia-list.app-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+gaia-list.app-list li:last-child {
+  border-bottom: none;
+}
+
+gaia-list li.subheading {
+  height: 2rem;
+  font-size: 1.5rem;
+
+  background: #eee;
+}
+
+gaia-list li.subheading > p {
+  height: auto;
+  width: 15rem;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+gaia-list li.subheading > * {
+  flex: initial !important;
+}
+
+gaia-list li h3, gaia-list li h4 {
+  margin: 0;
+}
+
+gaia-list li h4 {
+  max-width: 13rem;
+
+  font-weight: 100;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  color: #777;
+  text-overflow: ellipsis;
+}
+
+gaia-list li > * {
+  height: 2.4rem;
+}
+
+gaia-list li > :first-child {
+  flex: 6;
+}
+
+gaia-list li > :nth-child(2) {
+  flex: 1;
+}
+
+gaia-list li a {
+  font-size: 1rem;
+  font-style: italic;
+  color: #3366bb;
+}
+
+gaia-list li i {
+  text-align: right;
+}
